@@ -3,14 +3,20 @@
   "reason": {
     "react-jsx": 3
   },
-  "sources": {
-    "dir": "src",
-    "subdirs": true
-  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "__tests__",
+      "type": "dev"
+    }
+  ],
   "bsc-flags": ["-bs-super-errors", "-bs-no-version-header"],
   "package-specs": [
     {
-      "module": "es6-global",
+      "module": "commonjs",
       "in-source": true
     }
   ],
@@ -24,6 +30,11 @@
     "bs-reform",
     "reschema",
     "bs-markdown-it"
+  ],
+  "bs-dev-dependencies": [
+    "@glennsl/bs-jest",
+    "bs-dom-testing-library",
+    "bs-react-testing-library"
   ],
   "ppx-flags": ["@baransu/graphql_ppx_re/ppx6", "lenses-ppx/ppx"],
   "refmt": 3

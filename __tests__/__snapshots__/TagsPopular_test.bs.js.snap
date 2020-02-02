@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component renders resolved data 1`] = `
+<div>
+  <p>
+    Popular Tags
+  </p>
+  <div
+    class="tag-list"
+  >
+    <a
+      class="tag-pill tag-default"
+      href=""
+    >
+      Hello
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Component renders when loading 1`] = `
+<div>
+  <p>
+    Popular Tags
+  </p>
+  <div
+    class="tag-list"
+  >
+    Loading...
+  </div>
+</div>
+`;

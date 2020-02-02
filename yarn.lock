@@ -20,6 +20,15 @@
     ts-invariant "^0.4.4"
     tslib "^1.10.0"
 
+"@apollo/react-testing@^3.1.3":
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/@apollo/react-testing/-/react-testing-3.1.3.tgz#d8dd318f58fb6a404976bfa3f8a79e976a5c6562"
+  integrity sha512-58R7gROl4TZMHm5kS76Nof9FfZhD703AU3SmJTA2f7naiMqC9Qd8pZ4oNCBafcab0SYN//UtWvLcluK5O7V/9g==
+  dependencies:
+    "@apollo/react-common" "^3.1.3"
+    fast-json-stable-stringify "^2.0.0"
+    tslib "^1.10.0"
+
 "@babel/code-frame@7.8.3", "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -867,7 +876,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.2"
 
-"@babel/runtime@7.8.4", "@babel/runtime@^7.0.0", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.1", "@babel/runtime@^7.6.2", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.4", "@babel/runtime@^7.7.6":
+"@babel/runtime@7.8.4", "@babel/runtime@^7.0.0", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.4", "@babel/runtime@^7.7.6":
   version "7.8.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.8.4.tgz#d79f5a2040f7caa24d53e563aad49cbc05581308"
   integrity sha512-neAp3zt80trRVBI1x0azq6c57aNBqYZH8KhMm3TaB7wEI5Q4A2SHfBHE8w9gOhI/lrqxtEbXZgQIrHP+wvSGwQ==
@@ -929,6 +938,13 @@
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
+
+"@glennsl/bs-jest@^0.4.9":
+  version "0.4.9"
+  resolved "https://registry.yarnpkg.com/@glennsl/bs-jest/-/bs-jest-0.4.9.tgz#a23af2668dda05947ce9c043fd5a7b295e91cef7"
+  integrity sha512-WAqXMcI6WL7JVvGdakBr1tcw8BYWXHrOZfuA1myMkFggzAv24H/OEwyqaU7x+yXd4cJaBUY8v3SjQ3Pnk/zqsg==
+  dependencies:
+    jest "^24.3.1"
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -1231,6 +1247,17 @@
     "@svgr/plugin-svgo" "^4.3.1"
     loader-utils "^1.2.3"
 
+"@testing-library/dom@^5.6.0", "@testing-library/dom@^5.6.1":
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-5.6.1.tgz#705a1cb4a039b877c1e69e916824038e837ab637"
+  integrity sha512-Y1T2bjtvQMewffn1CJ28kpgnuvPYKsBcZMagEH0ppfEMZPDc8AkkEnTk4smrGZKw0cblNB3lhM2FMnpfLExlHg==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    "@sheerun/mutationobserver-shim" "^0.3.2"
+    aria-query "3.0.0"
+    pretty-format "^24.8.0"
+    wait-for-expect "^1.2.0"
+
 "@testing-library/dom@^6.11.0":
   version "6.12.0"
   resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-6.12.0.tgz#0e40efd58d85d92ad9c39ef7667952195e835bbf"
@@ -1257,6 +1284,14 @@
     lodash "^4.17.11"
     pretty-format "^24.0.0"
     redent "^3.0.0"
+
+"@testing-library/react@^8.0.5":
+  version "8.0.9"
+  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-8.0.9.tgz#1ecd96bc3471b06dd2f9763b6e53a7ace28a54a2"
+  integrity sha512-I7zd+MW5wk8rQA5VopZgBfxGKUd91jgZ6Vzj2gMqFf2iGGtKwvI5SVTrIJcSFaOXK88T2EUsbsIKugDtoqOcZQ==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    "@testing-library/dom" "^5.6.1"
 
 "@testing-library/react@^9.3.2":
   version "9.4.0"
@@ -2514,6 +2549,13 @@ bs-abstract@^0.18.0:
   resolved "https://registry.yarnpkg.com/bs-abstract/-/bs-abstract-0.18.0.tgz#5ea6d131aaa8b1738832eca472c12d9e9ab6968a"
   integrity sha512-kohLdSzk6fIw4u+O214/0paiPmhkJ+ChBOrXLWufQGT/aLu6hOWNlLIpWX7BFi7oGEsUMlIBxTs5jPWBT9gnjg==
 
+bs-dom-testing-library@^0.5.0, bs-dom-testing-library@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/bs-dom-testing-library/-/bs-dom-testing-library-0.5.1.tgz#20fd6529ace0710d272728b7a7ac6a7d0a07c0e6"
+  integrity sha512-JYFrDyK0BUqFTz4i2PxoY01PxsCm82jp/hrvtpRd11+YWO/YpA25Nv56BG54CJboXBz1cIRS2bD1t9YzTJJdQQ==
+  dependencies:
+    "@testing-library/dom" "^5.6.0"
+
 bs-markdown-it@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/bs-markdown-it/-/bs-markdown-it-0.2.1.tgz#07af41bc926d560befad1b82a306f82e463a9177"
@@ -2526,6 +2568,14 @@ bs-platform@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-7.0.1.tgz#1d7b0ef6088b998dceee5db74a7cd8f01c20a3bd"
   integrity sha512-UjStdtHhbtC/l6vKJ1XRDqrPk7rFf5PLYHtRX3akDXEYVnTbN36z0g4DEr5mU8S0N945e33HYts9x+i7hKKpZQ==
+
+bs-react-testing-library@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/bs-react-testing-library/-/bs-react-testing-library-0.6.0.tgz#e863efcac1a668a9279d0e5c8417c8d6fd3fd1f6"
+  integrity sha512-YpKrqRR9fezYNCcr4YFJthgWHyELSjr3Z4vL5WYsc/tNUhvi2yCj/RWYEG47G4SbKML1mg9n04Vvj5m/IBo9ZQ==
+  dependencies:
+    "@testing-library/react" "^8.0.5"
+    bs-dom-testing-library "^0.5.0"
 
 bs-reform@^9.7.1:
   version "9.7.1"
@@ -6094,7 +6144,7 @@ jest-worker@^25.1.0:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
-jest@24.9.0:
+jest@24.9.0, jest@^24.3.1:
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/jest/-/jest-24.9.0.tgz#987d290c05a08b52c56188c1002e368edb007171"
   integrity sha512-YvkBL1Zm7d2B1+h5fHEOdyjCG+sGMz4f8D86/0HiqJ6MB4MnDc8FgP5vdWsGnemOQro7lnYo8UakZ3+5A0jxGw==
@@ -8314,7 +8364,7 @@ pretty-error@^2.1.1:
     renderkid "^2.0.1"
     utila "~0.4"
 
-pretty-format@^24.0.0, pretty-format@^24.3.0, pretty-format@^24.9.0:
+pretty-format@^24.0.0, pretty-format@^24.3.0, pretty-format@^24.8.0, pretty-format@^24.9.0:
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-24.9.0.tgz#12fac31b37019a4eea3c11aa9a959eb7628aa7c9"
   integrity sha512-00ZMZUiHaJrNfk33guavqgvfJS30sLYf0f8+Srklv0AMPodGGHcoHgksZ3OThYnIvOd+8yMCn0YiEOogjlgsnA==
@@ -10423,6 +10473,11 @@ w3c-xmlserializer@^1.1.2:
     domexception "^1.0.1"
     webidl-conversions "^4.0.2"
     xml-name-validator "^3.0.0"
+
+wait-for-expect@^1.2.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/wait-for-expect/-/wait-for-expect-1.3.0.tgz#65241ce355425f907f5d127bdb5e72c412ff830c"
+  integrity sha512-8fJU7jiA96HfGPt+P/UilelSAZfhMBJ52YhKzlmZQvKEZU2EcD1GQ0yqGB6liLdHjYtYAoGVigYwdxr5rktvzA==
 
 wait-for-expect@^3.0.0:
   version "3.0.1"
