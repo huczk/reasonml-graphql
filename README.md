@@ -20,8 +20,6 @@ Project build with:
 - [graphql-ppx](https://github.com/reasonml-community/graphql_ppx)
 - [reform](https://github.com/Astrocoders/reform)
 
-Tests
-
 # Getting started
 
 - In project root `yarn && yarn start`
